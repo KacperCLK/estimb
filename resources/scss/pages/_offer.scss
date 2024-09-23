@@ -1,0 +1,28 @@
+.offer {
+    &__table {
+        display: grid;
+        grid-template-rows: 10rem 1fr;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
+    &__details {
+        display: grid;
+        grid-template-columns: repeat(3, 33.333%);
+        align-items: center;
+    }
+
+    &__detail {
+        display: flex;
+        margin-left: 2rem;
+
+        i {
+            margin-right: 1rem;
+            font-size: inherit;
+        }
+    }
+}

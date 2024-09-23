@@ -1,0 +1,15 @@
+.title {
+    &--big {
+        font-size: $font-size-xl;
+        text-transform: uppercase;
+    }
+
+    &--medium {
+        font-size: $font-size-l;
+        text-transform: uppercase;
+    }
+
+    &--small {
+        font-size: $font-size-m-l;
+    }
+}

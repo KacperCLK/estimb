@@ -1,0 +1,58 @@
+.contact-us {
+    &__form {
+        display: grid;
+        grid-template-rows: 15% 10% 10% 25% 10%;
+        gap: 7.5%;
+        
+        height: 100%;
+        width: 100%;
+
+        button,
+        input,
+        textarea {
+            outline: none;
+            border: none;
+            font-size: $font-size-s;
+        }
+
+        input,
+        textarea {
+            padding: 2rem;
+
+            color: $color-main-2;
+            background-color: inherit; 
+            
+            box-shadow: 0px 0px 15px 0px rgba($color-main-1, .5);
+            border: 1px solid $color-main-2;
+
+            &:focus {
+                box-shadow: 0px 0px 5px 0px rgba($color-main-2, 1);
+            }
+        }
+
+        input,
+        button,
+        textarea {
+            border-radius: 5px;
+        }
+        
+        textarea {
+            resize: none; 
+        }
+    }
+
+    .card__right {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        font-size: $font-size-m;
+
+        i {
+            font-size: 25rem;
+        }
+
+        span {
+            text-align: center;
+        }
+    }
+}

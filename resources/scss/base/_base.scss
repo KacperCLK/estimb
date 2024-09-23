@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px 10/16=65.5%
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    font-weight: 300;
+    font-size: $font-size-s;
+}

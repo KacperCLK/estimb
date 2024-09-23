@@ -1,0 +1,51 @@
+.link {
+    color: inherit;
+    cursor: pointer;
+
+    &--button-1,
+    &--button-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100%;
+        width: 100%;
+        
+        border-radius: 1000px;
+        transition: all .2s ease;
+    }
+
+    &--button-1 {
+        border: 1px solid $color-main-2;
+        
+        &:hover {
+            color: $color-main-2-light;
+            border: 1px solid $color-main-2-light;
+        }
+    }
+    &--button-2 {
+        color: $color-main-1;
+        background-color: $color-main-2;
+        
+        &:hover {
+            background-color: $color-main-2-light;
+        }
+    }
+
+    &--linkedin {
+        transition: all .2s ease;
+
+        &:hover {
+            color: $color-main-2-light;
+        }
+    }
+
+    &--inline {
+        color: $color-main-2-light;
+        transition: all .2s ease;
+
+        &:hover {
+            color: $color-main-2;
+        }
+    }
+}
