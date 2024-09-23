@@ -3,6 +3,12 @@
         display: grid;
         grid-template-rows: 1fr 6rem;
         margin-bottom: 5vh;
+
+        @media only screen and (max-width: $bp-medium) {
+            .title {
+                text-align: center;
+            }
+        }
     }
 
     &__links-container {
@@ -10,6 +16,10 @@
         height: 100%;
         margin-right: 20%;
         gap: 2.5rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            margin: 0 2rem;
+        }
     }
 
     &__link {
@@ -25,6 +35,10 @@
         overflow: hidden;
         width: 90%;
         height: 100%;
+
+        @media only screen and (max-width: $bp-medium) {
+            height: 60%;
+        }
     }
 
     &__img {
@@ -32,5 +46,13 @@
         height: 100%;
         object-fit: cover; 
         border: 10px solid $color-main-2;
+
+        @media only screen and (max-width: $bp-medium) {
+            border: 7px solid $color-main-2;
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            border: 5px solid $color-main-2;
+        }
     }
 }

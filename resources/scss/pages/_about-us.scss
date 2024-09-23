@@ -6,6 +6,12 @@
 
         grid-template-rows: 50% 50%;
         grid-template-columns: 100%;
+
+        @media only screen and (max-width: $bp-small) {
+            grid-template-rows: 100%;
+            grid-template-columns: 50% 50%;
+            margin-bottom: 2rem;
+        }
     }
 
     &__img-container {
@@ -17,6 +23,10 @@
         
         overflow: hidden;
         cursor: pointer;
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-left: 2rem;
+        }
 
         &:hover {
            .about-us__linkedin-icon {
@@ -30,6 +40,14 @@
         width: 55%;
         object-fit: cover;
         border: 10px solid $color-main-2;
+
+        @media only screen and (max-width: $bp-medium) {
+            border: 7px solid $color-main-2;
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            border: 5px solid $color-main-2;
+        }
     }
 
     &__linkedin-icon {
@@ -38,6 +56,15 @@
         font-size: $font-size-xl;
 
         transition: all .3s ease;
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: $font-size-l;
+            margin-left: 2rem;
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: $font-size-m-l;
+        }
     }
 
     .card__right {
@@ -50,5 +77,14 @@
     &__description {
         font-size: $font-size-m;
         text-align: justify;
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: $font-size-s-m;
+            margin-right: 2rem;
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            margin-right: 0rem;
+        }
     }
 }

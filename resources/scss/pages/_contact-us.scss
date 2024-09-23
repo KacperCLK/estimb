@@ -1,4 +1,10 @@
 .contact-us {
+    font-size: $font-size-s;
+
+    @media only screen and (max-width: $bp-small) {
+        height: 90vh;
+    }
+
     &__form {
         display: grid;
         grid-template-rows: 15% 10% 10% 25% 10%;
@@ -6,6 +12,13 @@
         
         height: 100%;
         width: 100%;
+        
+        @media only screen and (max-width: $bp-small) {
+            width: 90vw;
+            grid-template-rows: 20% 20% 30% 15%;
+            grid-template-columns: repeat(2, 47.5%);
+            gap: 5%;
+        }
 
         button,
         input,
@@ -21,6 +34,7 @@
 
             color: $color-main-2;
             background-color: inherit; 
+            font-size: inherit;
             
             box-shadow: 0px 0px 15px 0px rgba($color-main-1, .5);
             border: 1px solid $color-main-2;
@@ -39,6 +53,20 @@
         textarea {
             resize: none; 
         }
+
+                
+        @media only screen and (max-width: $bp-small) {
+            .title,
+            textarea,
+            button {
+                grid-column: 1/-1;
+                justify-self: center;
+            }
+
+            textarea {
+                width: 100%;
+            }
+        }
     }
 
     .card__right {
@@ -46,9 +74,35 @@
         flex-direction: column;
         gap: 5rem;
         font-size: $font-size-m;
-
+        
+        @media only screen and (max-width: $bp-medium) {
+            font-size: $font-size-s;
+            margin: 0 2rem;
+        }
+        
+        @media only screen and (max-width: $bp-small) {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 0;
+            
+            height: 30rem;
+        }
+        
+        @media only screen and (max-width: $bp-small) {
+            font-size: $font-size-xs;
+        }
+        
         i {
             font-size: 25rem;
+            
+            @media only screen and (max-width: $bp-medium) {
+                font-size: 15rem;
+            }
+
+            @media only screen and (max-width: $bp-small) {
+                grid-column: 1/-1;
+                justify-self: center;
+            }
         }
 
         span {
