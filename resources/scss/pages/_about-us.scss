@@ -12,6 +12,7 @@
         @media only screen and (max-width: $bp-small) {
             justify-content: center;
             grid-template-columns: 45vw 45vw;
+            grid-template-rows: 100%;
         }
 
         @media only screen and (max-width: $bp-smallest) {
@@ -86,6 +87,7 @@
         transition: all .3s ease;
 
         @media only screen and (max-width: $bp-large) {
+            margin-left: 3rem;
             opacity: 1;
         }
 

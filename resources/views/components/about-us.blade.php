@@ -9,7 +9,7 @@
             </div>
             <div class="about-us__img-container">
                 <img src="{{ asset('storage/images/kc.jpg') }}" alt="mployee photo" class="about-us__img">
-                <a class="about-us__linkedin-icon link link--linkedin" href="#">
+                <a class="about-us__linkedin-icon link link--linkedin" href="https://www.linkedin.com/in/kacper-celak-1b7a05262/">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </div>

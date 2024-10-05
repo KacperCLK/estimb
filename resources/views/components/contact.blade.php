@@ -19,12 +19,12 @@
         <span>
             Możesz również skontaktować się z nami za pośrednictwem Gmaila:
             <br>
-            <span href="#" class="link link--inline">{{ $texts['contact_email']->content }}</span>
+            <span class="link link--inline">{{ $texts['contact_email']->content }}</span>
         </span>
         <span>
             Lub bezpośrednio telefonicznie:
             <br>
-            <a href="#" class="link link--inline">{{ $texts['contact_phone']->content }}</a>
+            <span class="link link--inline">{{ $texts['contact_phone']->content }}</span>
         </span>
     </div>
 </div>
