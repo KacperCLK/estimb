@@ -3,20 +3,33 @@
         font-size: $font-size-xl;
         text-transform: uppercase;
         
-        @media only screen and (max-width: $bp-largest) {
+        @media only screen and (max-width: $bp-large) {
             font-size: $font-size-l;
         }        
         @media only screen and (max-width: $bp-medium) {
             font-size: $font-size-m-l;
+        }       
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: $font-size-m;
         }
     }
 
     &--medium {
         font-size: $font-size-l;
         text-transform: uppercase;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: $font-size-m-l;
+        }  
+        @media only screen and (max-width: $bp-medium) {
+            font-size: $font-size-m;
+        }       
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: $font-size-s-m;
+        }
     }
 
     &--small {
-        font-size: $font-size-m-l;
+        font-size: $font-size-s-m;
     }
 }

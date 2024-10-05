@@ -16,13 +16,11 @@
         </div>
     </div>
     <div class="card__right">
-        <div class="title title--big">
-            About us
-        </div>
+        <h1 class="title title--medium">
+            Informacje o nas
+        </h1>
         <div class="about-us__description">
-            We are a team of specialists with many years of experience, 
-            successfully completing hundreds of cost estimates
-            for projects of varying complexity.
+            {{ $texts['about-us__description']->content }}
         </div>
     </div>
 </div>

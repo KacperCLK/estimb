@@ -4,15 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Estimating Company Website</title>
+        <title>EstimB</title>
         <script src="https://kit.fontawesome.com/530790a84d.js" crossorigin="anonymous"></script>        
 
         @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
     </head>
     <body class="main-layout">
-        <x-home />
-        <x-about-us />
+        <x-home :texts="$texts"/>
+        <x-about-us :texts="$texts"/>
         <x-offer :offers="$offers"/>
-        <x-contact />
+        <x-contact :texts="$texts"/>
     </body>
 </html>

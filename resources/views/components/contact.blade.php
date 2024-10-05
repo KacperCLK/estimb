@@ -1,30 +1,30 @@
 <div id="contact-us" class="card card--left contact-us">
     <div class="card__left">
-        <form action="/submit" method="POST" class="contact-us__form">
+        <form action="/submit" method="POST" class="form">
             @csrf            
-            <div class="title title--big">
-                Contact us!
-            </div>
+            <h1 class="title title--medium">
+                Skontaktuj się z nami!
+            </h1>
             
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-            <input type="email" id="email" name="email" placeholder="What's your email?" required>
-            <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+            <input type="text" id="name" name="name" placeholder="Twoje imię" required>
+            <input type="email" id="email" name="email" placeholder="Twój adres e-mail" required>
+            <textarea id="message" name="message" placeholder="Twoja wiadomość..." required></textarea>
         
-            <button type="submit" class="link link--button-2">Send message</button>
+            <button type="submit" class="link link--button-2">Wyśli wiadomość!</button>
         </form>
     </div>
     
     <div class="card__right">
         <i class="fa-solid fa-envelope-open-text"></i>
         <span>
-            You can also contact us via Gmail: 
+            Możesz również skontaktować się z nami za pośrednictwem Gmaila:
             <br>
-            <a href="#" class="link link--inline">estimators@gmail.com</a>
+            <span href="#" class="link link--inline">{{ $texts['contact_email']->content }}</span>
         </span>
         <span>
-            Or directly by phone: 
+            Lub bezpośrednio telefonicznie:
             <br>
-            <a href="#" class="link link--inline">668 888 111</a>
+            <a href="#" class="link link--inline">{{ $texts['contact_phone']->content }}</a>
         </span>
     </div>
 </div>

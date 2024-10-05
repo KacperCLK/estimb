@@ -3,7 +3,7 @@
     gap: 5vh;
 
     justify-content: center;
-    margin: 5vh 0 10vh 0;
+    margin: 0 0 10vh 0;
 
     background-color: $color-main-1;
     color: $color-main-2;
@@ -12,9 +12,9 @@
 .card {
     position: relative;
     display: grid;
-    grid-template-rows: 55vh;
 
     overflow: hidden;
+    margin-top: 10vh;
     
     width: 70vw;
     justify-content: center;
@@ -23,8 +23,9 @@
         width: 90vw;
     }
 
-    @media only screen and (max-width: $bp-medium) {
+    @media only screen and (max-width: $bp-small) {
         width: 95vw;
+        margin-top: 0;
     }
 
     &--left {
@@ -57,14 +58,5 @@
 
     &__solo {
         width: 100%;
-    }
-}
-
-.card.offer {
-    grid-template-rows: 35vh;
-    padding: 10rem 0;
-    
-    @media only screen and (max-width: $bp-medium) {
-        grid-template-rows: 70vh;
     }
 }

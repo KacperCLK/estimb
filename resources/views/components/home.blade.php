@@ -1,14 +1,20 @@
 <div id="home" class="card card--right home">
     <div class="card__left">
-        <div class="title title--big">
-            Comprehensive </br> cost estimates for the construction industry.
+        <div class="home__company-name">
+            <div class="home__logo-container">
+                <img src="{{ asset('storage/images/LOGO.png') }}" alt="lOGO" class="home__logo">
+            </div>
+            <h2 class="title title--big">EstimB</h2>
         </div>
+        <h1 class="title title--medium">
+            {{ $texts['home__title']->content }}
+        </h1>
         <div class="home__links-container">
             <div class="home__link">
-                <a href="#contact-us" class="link link--button-1">Contact Us</a>
+                <a href="#contact-us" class="link link--button-1">Skontaktuj się z nami!</a>
             </div>
             <div class="home__link">
-                <a href="#offer" class="link link--button-2">See our Offer</a>
+                <a href="#offer" class="link link--button-2">Zobacz naszą ofertę!</a>
             </div>
         </div>
     </div>

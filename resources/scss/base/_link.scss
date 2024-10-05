@@ -10,6 +10,9 @@
 
         height: 100%;
         width: 100%;
+
+        padding: 1rem;
+        text-align: center;
         
         border-radius: 1000px;
         transition: all .2s ease;
@@ -17,9 +20,11 @@
 
     &--button-1 {
         border: 1px solid $color-main-2;
+        background-color: $color-white;
         
         &:hover {
-            color: $color-main-2-light;
+            color: $color-white;
+            background-color: $color-main-2-light;
             border: 1px solid $color-main-2-light;
         }
     }
