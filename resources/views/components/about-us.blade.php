@@ -8,7 +8,7 @@
                 </a>
             </div>
             <div class="about-us__img-container">
-                <img src="{{ asset('storage/images/employee_2.jpg') }}" alt="mployee photo" class="about-us__img">
+                <img src="{{ asset('storage/images/kc.jpg') }}" alt="mployee photo" class="about-us__img">
                 <a class="about-us__linkedin-icon link link--linkedin" href="#">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>

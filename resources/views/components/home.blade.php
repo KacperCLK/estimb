@@ -2,7 +2,7 @@
     <div class="card__left">
         <div class="home__company-name">
             <div class="home__logo-container">
-                <img src="{{ asset('storage/images/LOGO.png') }}" alt="lOGO" class="home__logo">
+                <img src="{{ asset('storage/images/logo.png') }}" alt="lOGO" class="home__logo">
             </div>
             <h2 class="title title--big">EstimB</h2>
         </div>
