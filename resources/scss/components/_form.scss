@@ -3,13 +3,13 @@
     grid-template-rows: 15% 10% 10% 25% 10%;
     gap: 7.5%;
     
-    height: 100%;
+    height: max(100%);
     width: 100%;
     padding: 0 1rem;
 
     @media only screen and (max-width: $bp-small) {
         width: 90vw;
-        grid-template-rows: 20% 20% 30% 15%;
+        grid-template-rows: 17% 17% 36% 15%;
         grid-template-columns: repeat(2, 47.5%);
         gap: 5%;
     }

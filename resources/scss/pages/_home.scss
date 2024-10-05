@@ -5,10 +5,10 @@
         height: max(45vh, 40rem);
     }
     @media only screen and (max-width: $bp-small) {
-        height: 90vh;
+        height: max(90vh, 70rem)
     }
     @media only screen and (max-width: $bp-smallest) {
-        height: 70vh;
+        height: max(70vh, 50rem)
     }
     //////////////////////// LEFT ////////////////////////
     .card__left {

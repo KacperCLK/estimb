@@ -1,8 +1,8 @@
 .contact-us {
     font-size: $font-size-s;
-
+    
     @media only screen and (max-width: $bp-small) {
-        height: 60vh;
+        height: max(60vh, 60rem);
     }
 
     .card__right {
