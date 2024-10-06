@@ -2,7 +2,7 @@
     font-size: $font-size-s;
     
     @media only screen and (max-width: $bp-small) {
-        height: max(60vh, 60rem);
+        height: max(70vh, 70rem);
     }
 
     .card__right {
@@ -24,6 +24,7 @@
             gap: 0;
             padding: 0;
             margin: 0;
+            margin-top: 5rem;
             
             height: 30rem;
         }
@@ -46,7 +47,9 @@
             }
         }
 
-        span {
+        &__email,
+        &__phone {
+            position: relative;
             text-align: center;
 
             @media only screen and (max-width: $bp-small) {

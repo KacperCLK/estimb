@@ -8,11 +8,14 @@
         <script src="https://kit.fontawesome.com/530790a84d.js" crossorigin="anonymous"></script>        
 
         @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
+        @livewireStyles
     </head>
     <body class="main-layout">
         <x-home :texts="$texts"/>
         <x-about-us :texts="$texts"/>
         <x-offer :offers="$offers"/>
         <x-contact :texts="$texts"/>
+
+        @livewireScripts
     </body>
 </html>

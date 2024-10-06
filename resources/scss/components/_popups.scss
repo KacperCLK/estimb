@@ -1,0 +1,21 @@
+.popup {
+    position: absolute;
+
+    padding: 1rem 2rem;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    opacity: 0;
+    background-color: $color-main-1;
+    color: black;
+    border: 1px solid $color-main-2;
+    border-radius: 20px;
+
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    
+    &.show {
+        opacity: 1;
+    }
+}

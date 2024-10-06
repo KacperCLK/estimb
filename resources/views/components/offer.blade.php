@@ -2,7 +2,7 @@
     <div class="offer__table">
         <div class="offer__title">
             <h1 class="title title--medium">
-                Our Offer
+                Nasza oferta
             </h1>
         </div>
         <div class="offer__tiles">
