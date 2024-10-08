@@ -7,6 +7,8 @@
         <title>EstimB</title>
         <script src="https://kit.fontawesome.com/530790a84d.js" crossorigin="anonymous"></script>        
 
+        <link rel="icon" type="image/png" href="{{ asset('storage/images/logo.png') }}">
+        
         @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
         @livewireStyles
     </head>
