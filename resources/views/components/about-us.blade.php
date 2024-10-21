@@ -2,7 +2,7 @@
     <div class="card__left">
         <div class="about-us__photos-container">
             <div class="about-us__img-container">
-                <img src="{{ asset('storage/images/employee_1.jpg') }}" alt="employee photo" class="about-us__img">
+                <img src="{{ asset('storage/images/ps.jpg') }}" alt="employee photo" class="about-us__img">
                 <a class="about-us__linkedin-icon link link--linkedin" href="#">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
