@@ -6,7 +6,7 @@
     <div class="card__right">
         <i class="fa-solid fa-envelope-open-text"></i>
         <div class="card__right__email">
-            Możesz również skontaktować się z nami za pośrednictwem Gmaila:
+            Możesz również skontaktować się z nami pod adresem:
             <br>
             <span class="link link--inline copyText">{{ $texts['contact_email']->content }}</span>
             <div id="popup" class="popup">Skopiowano!</div>

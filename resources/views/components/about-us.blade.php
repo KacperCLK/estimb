@@ -3,7 +3,7 @@
         <div class="about-us__photos-container">
             <div class="about-us__img-container">
                 <img src="{{ asset('storage/images/ps.jpg') }}" alt="employee photo" class="about-us__img">
-                <a class="about-us__linkedin-icon link link--linkedin" href="#">
+                <a class="about-us__linkedin-icon link link--linkedin" href="https://www.linkedin.com/in/pawe%C5%82-%C5%9Bwierk-74137232b/">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </div>
@@ -20,7 +20,9 @@
             Informacje o nas
         </h1>
         <div class="about-us__description">
-            {{ $texts['about-us__description']->content }}
+            {{ $texts['about-us__description_pt1']->content }}
+            </br></br>
+            {{ $texts['about-us__description_pt2']->content }}
         </div>
     </div>
 </div>
