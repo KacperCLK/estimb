@@ -73,14 +73,14 @@
     &__img-container {
         position: relative;
         overflow: hidden;
-        width: 90%;
+        width: 80vw;
         height: 50vh;
 
         @media only screen and (max-width: $bp-medium) {
             height: 40vh;
         }
         @media only screen and (max-width: $bp-smallest) {
-            height: 20vh;
+            height: 32vh;
         }
     }
 
