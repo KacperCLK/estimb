@@ -13,12 +13,11 @@
         width: 90vw;
         grid-template-rows: 16% 16% 34% 13%;
         grid-template-columns: repeat(2, 47.5%);
-        gap: 7%;
+        gap: 4%;
     }
 
     @media only screen and (max-width: $bp-smallest) {
-        grid-template-rows: 15% 15% 32% 11%;
-        gap: 9%;
+        grid-template-rows: 10% 15% 1fr 11%;
     }
 
     &__group {
@@ -73,9 +72,6 @@
     
     textarea {
         resize: none; 
-        @media only screen and (max-width: $bp-smallest) {
-            min-height: 20vh;;
-        }
     }
 
             

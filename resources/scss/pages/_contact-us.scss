@@ -5,6 +5,12 @@
         height: max(70vh, 70rem);
     }
 
+    .card__left {
+        @media only screen and (max-width: $bp-small) {
+            min-height: 40vh;
+        }
+    }
+
     .card__right {
         display: flex;
         flex-direction: column;
