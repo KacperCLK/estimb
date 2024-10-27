@@ -4,7 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>EstimB</title>
+        <title>EstimB | Kosztorysy Budowlane Kraków 🏗️ | Profesjonalne Wyceny i Optymalizacja</title>
+        <meta name="description" content="
+            Kosztorysy budowlane 🛠️
+            Kraków | Małopolska: wstępne, inwestorskie, ofertowe, przedmiary, obmiary i weryfikacja kosztorysów 💼 
+        ">
+
         <script src="https://kit.fontawesome.com/530790a84d.js" crossorigin="anonymous"></script>        
 
         <link rel="icon" type="image/png" href="{{ asset('storage/images/logo.png') }}">
