@@ -13,7 +13,7 @@
 
         <script src="https://kit.fontawesome.com/530790a84d.js" crossorigin="anonymous"></script>        
 
-        <link rel="icon" type="image/png" href="{{ asset('storage/images/logo.png') }}">
+        <link rel="icon" type="image/png" href="{{ asset('storage/images/logo_new_1.png') }}">
         
         @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
         @livewireStyles
