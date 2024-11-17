@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="pl">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="index, follow" />
 
         <title>EstimB | Kosztorysy Budowlane Kraków 🏗️ | Profesjonalne Wyceny i Optymalizacja</title>
         <meta name="description" content="
@@ -21,6 +22,7 @@
         <x-home :texts="$texts"/>
         <x-about-us :texts="$texts"/>
         <x-offer :offers="$offers"/>
+        {{-- <x-our-values /> --}}
         <x-contact :texts="$texts"/>
 
         @livewireScripts

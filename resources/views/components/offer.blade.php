@@ -1,9 +1,9 @@
 <div id="offer" class="card card--solo offer">
     <div class="offer__table">
         <div class="offer__title">
-            <h1 class="title title--medium">
-                Nasza oferta
-            </h1>
+            <h2 class="title title--medium">
+                Profesjonalne kosztorysy budowlane - Oferta EstimB:
+            </h2>
         </div>
         <div class="offer__tiles">
             @foreach ($offers as $offer)

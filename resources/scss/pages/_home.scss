@@ -1,5 +1,5 @@
 .home {
-    height: max(60vh, 40rem);
+    height: max(80vh, 40rem);
     
     @media only screen and (max-width: $bp-medium) {
         height: max(45vh, 40rem);
@@ -13,9 +13,15 @@
     //////////////////////// LEFT ////////////////////////
     .card__left {
         display: grid;
-        grid-template-rows: 6rem 1fr 6rem;
-        margin: 5rem 0;
+        grid-template-rows: auto 1fr 6rem;
+        margin: 15vh 0;
 
+        @media only screen and (max-width: $bp-medium) {
+            margin: 5vh 0;
+            h2 {
+                text-align: center;
+            }
+        }
         @media only screen and (max-width: $bp-small) {
             height: max(30vh, 25rem);
 
@@ -28,7 +34,7 @@
     &__company-name {
         display: flex;
         align-items: center;
-        gap: 1.5rem;     
+        gap: 1.5rem;
 
         @media only screen and (max-width: $bp-small) {
             justify-content: center;
@@ -37,7 +43,7 @@
 
     &__logo-container {
         height: 10rem;
-        width: 6rem;
+        width: 10rem;
     }
 
     &__logo {

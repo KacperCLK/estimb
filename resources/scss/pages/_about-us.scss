@@ -55,11 +55,11 @@
             align-items: center;
         }
 
-        &:hover {
-           .about-us__linkedin-icon {
-                opacity: 1;
-            }
-        }
+        // &:hover {
+        //    .about-us__linkedin-icon {
+        //         opacity: 1;
+        //     }
+        // }
     }
 
     &__img {
@@ -87,30 +87,33 @@
         }
     }
 
+    &__linkedin{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+
     &__linkedin-icon {
-        opacity: 0;
-        margin-left: 6rem;
+        // opacity: 0;
+        margin: auto;
         font-size: $font-size-xl;
 
         transition: all .3s ease;
 
         @media only screen and (max-width: $bp-large) {
-            margin-left: 3rem;
             opacity: 1;
         }
 
         @media only screen and (max-width: $bp-medium) {
             font-size: $font-size-l;
-            margin-left: 2rem;
         }
 
         @media only screen and (max-width: $bp-small) {
-            margin-left: 1rem;
             font-size: $font-size-m-l;
         }
 
         @media only screen and (max-width: $bp-smallest) {
-            margin-left: 0;
             margin-top: 1rem;
             font-size: $font-size-m-l;
         }

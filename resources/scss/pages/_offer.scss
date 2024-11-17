@@ -12,6 +12,7 @@
     &__title {
         display: flex;
         justify-content: center;
+        text-align: center;
         
         @media only screen and (max-width: $bp-medium) {
             align-items: center;

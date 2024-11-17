@@ -4,11 +4,14 @@
             <div class="home__logo-container">
                 <img src="{{ asset('storage/images/logo.png') }}" alt="lOGO" class="home__logo">
             </div>
-            <h2 class="title title--big">EstimB</h2>
+            <div>
+                <h1 class="title title--big">EstimB</h1>
+                <h3 class="title title--small">Kosztorysowanie budowlane</h3>
+            </div>
         </div>
-        <h1 class="title title--medium">
+        <h2 class="title title--medium">
             {{ $texts['home__title']->content }}
-        </h1>
+        </h2>
         <div class="home__links-container">
             <div class="home__link">
                 <a href="#contact-us" class="link link--button-1">Skontaktuj się z nami!</a>
