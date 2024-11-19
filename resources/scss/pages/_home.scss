@@ -2,7 +2,7 @@
     height: max(80vh, 40rem);
     
     @media only screen and (max-width: $bp-medium) {
-        height: max(45vh, 40rem);
+        height: max(45vh, 30rem);
     }
     @media only screen and (max-width: $bp-small) {
         height: max(90vh, 70rem)
@@ -23,7 +23,7 @@
             }
         }
         @media only screen and (max-width: $bp-small) {
-            height: max(35vh, 30rem);
+            height: max(30vh, 25rem);
 
             .title {
                 text-align: center;
@@ -83,7 +83,7 @@
         height: 50vh;
 
         @media only screen and (max-width: $bp-medium) {
-            height: 40vh;
+            height: max(40vh, 26rem);
         }
         @media only screen and (max-width: $bp-smallest) {
             height: 32vh;

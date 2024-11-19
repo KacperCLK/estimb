@@ -5,7 +5,7 @@
     transition: opacity 4s ease, transform 3s ease;
     &.section--hidden {
         opacity: 0;
-        transform: translateX(20rem);
+        transform: translateX(30%);
     }
 
     .card__left {
