@@ -19,11 +19,13 @@
         @livewireStyles
     </head>
     <body class="main-layout">
+        
         <x-home :texts="$texts"/>
         <x-about-us :texts="$texts"/>
         <x-offer :offers="$offers"/>
-        {{-- <x-our-values /> --}}
+        <x-our-values :texts="$texts" :ourValues="$ourValues" />
         <x-contact :texts="$texts"/>
+        <x-cookies :texts="$texts"/>
 
         @livewireScripts
     </body>

@@ -6,18 +6,17 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class OurValues extends Component
+class Cookies extends Component
 {
-    public $texts, $ourValues;
+    public $texts;
 
-    public function __construct($texts = [], $ourValues = [])
+    public function __construct($texts)
     {
         $this->texts = $texts;
-        $this->ourValues = $ourValues;
     }
-
+    
     public function render(): View|Closure|string
     {
-        return view('components.our-values');
+        return view('components.cookies');
     }
 }

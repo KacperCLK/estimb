@@ -1,4 +1,4 @@
-<div id="about-us" class="card card--left about-us">
+<section id="about-us" class="card card--left about-us section--hidden">
     <div class="card__left">
         <div class="about-us__photos-container">
             <div class="about-us__img-container">
@@ -7,7 +7,7 @@
                     <a class="about-us__linkedin-icon link link--linkedin" href="https://www.linkedin.com/in/pawe%C5%82-%C5%9Bwierk-74137232b/">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    <h3 class="title title--small">
+                    <h3 class="title">
                         Paweł Świerk
                     </h3>
                 </div>
@@ -18,7 +18,7 @@
                     <a class="about-us__linkedin-icon link link--linkedin" href="https://www.linkedin.com/in/kacper-celak-1b7a05262/">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    <h3 class="title title--small">
+                    <h3 class="title">
                         Kacper Celak
                     </h3>
                 </div>
@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="card__right">
-        <h2 class="title title--medium">
+        <h2 class="title">
             Informacje o nas
         </h2>
         <div class="about-us__description">
@@ -35,4 +35,4 @@
             {{ $texts['about-us__description_pt2']->content }}
         </div>
     </div>
-</div>
+</section>

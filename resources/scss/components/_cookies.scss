@@ -1,0 +1,26 @@
+.cookie {
+    display: none; 
+    position: fixed;
+    opacity: 0;
+
+    z-index: 1000;
+    width: 100%; 
+    bottom: 0; 
+    padding: 2rem; 
+
+    text-align: center; 
+    font-size: $font-size-s;
+    
+    background: $color-main-2; 
+    color: $color-white; 
+    
+    transition: opacity .5s ease;
+    
+    @media only screen and (max-width: $bp-small) {
+        font-size: $font-size-xs;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+}

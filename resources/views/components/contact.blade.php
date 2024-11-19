@@ -1,4 +1,4 @@
-<div id="contact-us" class="card card--left contact-us">
+<section id="contact-us" class="card card--left contact-us section--hidden">
     <div class="card__left">
         @livewire('contact-form')
     </div>
@@ -18,4 +18,4 @@
             <div id="popup" class="popup">Skopiowano!</div>
         </div>
     </div>
-</div>
+</section>

@@ -1,8 +1,8 @@
 <form wire:submit.prevent="submit" class="form">
     @csrf
-    <h1 class="title title--medium">
+    <h2 class="title">
         Skontaktuj się z nami!
-    </h1>
+    </h2>
     
     <div class="form__group">
         <input type="text" id="name" name="name" placeholder="Imię" wire:model.lazy="name">

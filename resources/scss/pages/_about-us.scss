@@ -1,13 +1,19 @@
 .about-us {
+    height: fit-content;
+
+    // Obsługa pojawiania się po doscrollowaniu się do elementu (js)
+    transition: opacity 4s ease, transform 3s ease;
+    &.section--hidden {
+        opacity: 0;
+        transform: translateX(20rem);
+    }
 
     .card__left {
         @media only screen and (max-width: $bp-smallest) {
             margin-top: 8vh;
-            // height: fit-content;
         }
     }
 
-    height: fit-content;
     &__photos-container{
         display: grid;
         gap: 3rem;
@@ -54,12 +60,6 @@
             flex-direction: column;
             align-items: center;
         }
-
-        // &:hover {
-        //    .about-us__linkedin-icon {
-        //         opacity: 1;
-        //     }
-        // }
     }
 
     &__img {
@@ -95,7 +95,6 @@
     }
 
     &__linkedin-icon {
-        // opacity: 0;
         margin: auto;
         font-size: $font-size-xl;
 

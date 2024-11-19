@@ -1,5 +1,12 @@
 .contact-us {
     font-size: $font-size-s;
+
+    // Obsługa pojawiania się po doscrollowaniu się do elementu (js)
+    transition: opacity 4s ease, transform 3s ease;
+    &.section--hidden {
+        opacity: 0;
+        transform: translateX(-20rem);
+    }
     
     @media only screen and (max-width: $bp-small) {
         height: max(70vh, 70rem);

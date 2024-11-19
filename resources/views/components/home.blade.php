@@ -1,15 +1,15 @@
-<div id="home" class="card card--right home">
+<section id="home" class="card card--right home">
     <div class="card__left">
         <div class="home__company-name">
             <div class="home__logo-container">
                 <img src="{{ asset('storage/images/logo_new_1.png') }}" alt="lOGO" class="home__logo">
             </div>
             <div>
-                <h1 class="title title--big">EstimB</h1>
-                <h3 class="title title--small">Kosztorysowanie budowlane</h3>
+                <h1 class="title">EstimB</h1>
+                <h3 class="title">Kosztorysowanie budowlane</h3>
             </div>
         </div>
-        <h2 class="title title--medium">
+        <h2 class="title">
             {{ $texts['home__title']->content }}
         </h2>
         <div class="home__links-container">
@@ -26,4 +26,4 @@
             <img src="{{ asset('storage/images/home.png') }}" alt="Home Photo" class="home__img">
         </div>
     </div>
-</div>
+</section>

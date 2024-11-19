@@ -1,39 +1,49 @@
-.title {
-    &--big {
-        font-size: $font-size-xl;
-        text-transform: uppercase;
-        
-        @media only screen and (max-width: $bp-large) {
-            font-size: $font-size-l;
-        }        
-        @media only screen and (max-width: $bp-medium) {
-            font-size: $font-size-m-l;
-        }       
-        @media only screen and (max-width: $bp-smallest) {
-            font-size: $font-size-m;
-        }
-    }
-
-    &--medium {
+h1 {
+    font-size: $font-size-xl;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+    @media only screen and (max-width: $bp-large) {
         font-size: $font-size-l;
-        text-transform: uppercase;
-
-        @media only screen and (max-width: $bp-large) {
-            font-size: $font-size-m-l;
-        }  
-        @media only screen and (max-width: $bp-medium) {
-            font-size: $font-size-m;
-        }       
-        @media only screen and (max-width: $bp-smallest) {
-            font-size: $font-size-s-m;
-        }
+    }        
+    @media only screen and (max-width: $bp-medium) {
+        font-size: $font-size-m-l;
+    }       
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: $font-size-m;
     }
+}
 
-    &--small {
+h2 {
+    font-size: $font-size-l;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: $font-size-m-l;
+    }  
+    @media only screen and (max-width: $bp-medium) {
+        font-size: $font-size-m;
+    }       
+    @media only screen and (max-width: $bp-smallest) {
         font-size: $font-size-s-m;
-
-        @media only screen and (max-width: $bp-medium) {
-            font-size: $font-size-s;
-        }       
     }
+}
+
+h3 {
+    font-size: $font-size-s-m;
+    font-weight: 600;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: $font-size-s;
+    }       
+}
+
+h4 {
+    font-size: $font-size-s;
+    font-weight: 600;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: $font-size-xs;
+    }       
 }

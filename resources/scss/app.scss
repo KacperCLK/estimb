@@ -4,10 +4,12 @@
 @import 'utils/variables';
 
 @import 'base/base';
+@import 'base/buttons';
 @import 'base/link';
 @import 'base/titles';
 @import 'base/typography';
 
+@import 'components/cookies';
 @import 'components/form';
 @import 'components/popups';
 
@@ -17,5 +19,6 @@
 @import 'pages/contact-us';
 @import 'pages/home';
 @import 'pages/offer';
+@import 'pages/our-values';
 
 @import 'themes/default';

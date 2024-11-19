@@ -1,11 +1,17 @@
 .offer {
+    // Obsługa pojawiania się po doscrollowaniu się do elementu (js)
+    transition: opacity 1s ease;
+    &.section--hidden {
+        opacity: 0;
+    }
 
     &__table {
         display: grid;
-        grid-template-rows: 10rem 1fr;  
+        grid-template-rows: 10rem 1fr;
         
         @media only screen and (max-width: $bp-small) {
             grid-template-rows: 6rem 1fr;  
+            gap: 3rem;
         }
     }
 
@@ -54,7 +60,12 @@
         border-radius: 10px;
         box-shadow: 0px 0px 20px 0px rgba(66, 68, 90, .5);
 
-        transition: all .2s ease-out;
+        transition: transform 1s ease-out, opacity .8s ease-in-out;
+
+        &--hidden {
+            opacity: 0;
+            transform: translateY(-5rem);
+        }
         
         @media only screen and (max-width: $bp-medium) {
             width: 90%;

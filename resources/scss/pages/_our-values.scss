@@ -1,0 +1,60 @@
+.our-values {
+    display: grid;
+    gap: 5rem;
+    justify-items: center;
+
+    // Obsługa pojawiania się po doscrollowaniu się do elementu (js)
+    transition: opacity 4s ease, transform 3s ease;
+    &.section--hidden {
+        opacity: 0;
+        transform: translateX(20rem);
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        gap: 3rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    &__values{
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        
+        @media only screen and (max-width: $bp-medium) {
+            grid-template-columns: repeat(2, 50%);
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            grid-template-columns: 100%;
+        }
+    }
+
+    &__value {
+        display: grid;
+        grid-template-columns: 10% 1fr;
+        grid-template-rows: 4rem;
+        align-items: center;
+
+        gap: 1rem;
+        padding: 1rem 2rem;
+    
+                
+        @media only screen and (max-width: $bp-small) {
+            grid-template-rows: 3rem;
+            gap: .5rem;
+            font-size: $font-size-xs;
+            padding: .5rem .8rem;
+        }
+
+        i {
+            color: $color-gold;
+        }
+
+        &__description {
+            grid-column: 2;
+            align-self: self-start;
+        }
+    }
+}
