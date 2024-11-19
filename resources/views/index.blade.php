@@ -18,13 +18,22 @@
         @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
         @livewireStyles
     </head>
-    <body class="main-layout">
-        
+    <body class="main-layout">        
         <x-home :texts="$texts"/>
-        <x-about-us :texts="$texts"/>
-        <x-offer :offers="$offers"/>
-        <x-our-values :texts="$texts" :ourValues="$ourValues" />
-        <x-contact :texts="$texts"/>
+        
+        <div class="section-container">
+            <x-about-us :texts="$texts"/>
+        </div>
+        <div class="section-container">
+            <x-offer :offers="$offers"/>
+        </div>
+        <div class="section-container">
+            <x-our-values :texts="$texts" :ourValues="$ourValues" />
+        </div>
+        <div class="section-container">
+            <x-contact :texts="$texts"/>
+        </div>
+        
         <x-cookies :texts="$texts"/>
 
         @livewireScripts
