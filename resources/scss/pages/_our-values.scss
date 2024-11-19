@@ -2,6 +2,7 @@
     display: grid;
     gap: 5rem;
     justify-items: center;
+    margin: 5vh 0;
 
     // Obsługa pojawiania się po doscrollowaniu się do elementu (js)
     transition: opacity 4s ease, transform 3s ease;
@@ -12,6 +13,7 @@
 
     @media only screen and (max-width: $bp-small) {
         gap: 3rem;
+        margin: 2vh 0;
     }
 
     .title {
